@@ -103,7 +103,7 @@ export default function Footer() {
             <p className="text-gray-400 mb-6">
               Get the latest insights on web and mobile development trends.
             </p>
-            <div className="flex gap-4">
+            <div className="flex flex-col sm:flex-row gap-4">
               <input
                 type="email"
                 placeholder="Enter your email"
